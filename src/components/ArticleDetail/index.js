@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import styles from './ArticleDetail.module.css';
 
@@ -22,6 +23,14 @@ const ArticleDetail = ({ article }) => {
       </a>
     </div>
   );
+};
+
+ArticleDetail.propTypes = {
+  article: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    abstract: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default ArticleDetail;
