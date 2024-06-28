@@ -1,0 +1,46 @@
+.articleDetail {
+  padding: 20px;
+  position: relative;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.abstract {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #1a0dab;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #0f0a70;
+  text-decoration: none;
+}
+
+.backButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #555555;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.backButton:hover {
+  background-color: #333333;
+}
