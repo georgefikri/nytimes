@@ -11,9 +11,7 @@ This project is a simple React application that fetches and displays the most po
    cd nytimes-most-popular
    ```
 
-2. Scripts
-
-## In the project directory, you can run the following scripts:
+2. Scripts: In the project directory, you can run the following scripts:
 
 ### npm start
 
