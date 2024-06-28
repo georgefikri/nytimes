@@ -9,14 +9,16 @@
 }
 
 .list {
-  list-style-type: none; /* Remove default list style */
-  padding: 0;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #d6d6d6;
+  border-radius: 20px;
 }
 
 .listItem {
   position: relative;
-  margin: 10px 0;
-  padding-left: 20px; /* Add space for custom bullet */
+  margin: 15px 0;
+  padding-left: 20px; 
 }
 
 .listItem::before {

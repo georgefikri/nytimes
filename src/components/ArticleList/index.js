@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import styles from './ArticleList.module.css';
 
 const ArticleList = ({ articles }) => (
@@ -16,5 +17,14 @@ const ArticleList = ({ articles }) => (
     </ul>
   </div>
 );
+
+ArticleList.propTypes = {
+  articles: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 export default ArticleList;
